@@ -1,0 +1,179 @@
+<!DOCTYPE>
+<html>
+<head>
+	<style>
+	
+	body{margin: 0;
+	}
+
+.vid{
+	position: absolute;
+	z-index: -1;
+	top: 2;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+	nav{
+	width: 200px;
+	height: 100%;
+	position: fixed ;
+	top: 0;
+	left: 0;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+
+	background-color: rgba(30,30,30,10);
+    }
+
+	.brand-container{
+	text-align: center;
+	color: #ADC6B2;
+	font-family: cursive;
+	padding:10px 15px	;
+	font-size: 20px;
+	}
+	.brand-title{
+		margin:0;
+		margin-top: 5px;
+		text-decoration: none;
+		display: block;
+		font-size: 20px;
+		color: #ADC6B2;
+	}
+	.brand-title:hover{
+ 	color: gold;
+	}
+
+	.link{
+	
+	display: block;
+	color: #ADC6B2;
+	padding: 15px 0px;
+	text-decoration: none;
+	margin: 20px;
+	font-family: verdana;
+	transition: 0.2s;
+	font-size: 15px;
+	border-radius: 10px;
+	}
+	.link:hover{
+ 	background: blue;
+ 	padding: 15px;
+ 	color: gold;
+	}
+
+	.content1{
+	margin-left: 200px;
+	padding: 5px;
+	background-color: rgba(99, 229, 205,0.8 );
+
+	text-align: center;
+}
+	.content2{
+		margin-left: 200px;
+		padding: 10px;
+		background-color: rgba(84, 87, 84, 0.8);
+		border-radius: 1px;
+		font-family: cursive;
+		font-size: 20px;
+	}
+	.content2 img{
+		display: block;
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 20%;
+            height: auto;
+	}
+
+	.profile-container{
+		font-family: verdana;
+		color: #ADC6B2;
+		padding: 15px;
+		margin: 0;
+		position: absolute;
+		bottom: 0;
+		font-size: 10px;
+	}
+	       /* For mobile phones: */
+        [class*="col-"] {
+            width: 100%;
+        }
+
+        @media only screen and (min-width: 600px) {
+            .col-s-1 {width: 8.33%;}
+            .col-s-2 {width: 16.66%;}
+            .col-s-3 {width: 25%;}
+            .col-s-4 {width: 33.33%;}
+            .col-s-5 {width: 41.66%;}
+            .col-s-6 {width: 50%;}
+            .col-s-7 {width: 58.33%;}
+            .col-s-8 {width: 66.66%;}
+            .col-s-9 {width: 75%;}
+            .col-s-10 {width: 83.33%;}
+            .col-s-11 {width: 91.66%;}
+            .col-s-12 {width: 100%;}
+        }
+
+        @media only screen and (min-width: 768px) {
+            /* For desktop: */
+            .col-1 {width: 8.33%;}
+            .col-2 {width: 16.66%;}
+            .col-3 {width: 25%;}
+            .col-4 {width: 33.33%;}
+            .col-5 {width: 41.66%;}
+            .col-6 {width: 50%;}
+            .col-7 {width: 58.33%;}
+            .col-8 {width: 66.66%;}
+            .col-9 {width: 75%;}
+            .col-10 {width: 83.33%;}
+            .col-11 {width: 91.66%;}
+            .col-12 {width: 100%;}
+        }
+
+     
+</style>
+<body bgcolor="#ADC6B2">
+	<nav>	<div class="brand-container">
+				<img src="JCDR.png" width="48px"/>
+				<a class="brand-title"  href="home.html">JCDR</a>
+		</div>
+		<div class="links-container">
+			<a class="link" href="portfolioniJC.html">About me</a>
+			<a class="link" href="myskills.html">My Skills</a>
+			<a class="link" href="myachievements.html">My Achievements</a>
+		</div>
+		<div class="profile-container"><p> Rivera,John Christian D.</p><p>  BSCS 1-4</p>
+		</div>
+	</nav>
+		<video class="vid" autoplay muted loop>
+	<source src="TECH.mp4" type="video/mp4">
+	</video>
+
+		<div class="content1">
+
+			<h2 style="text-align:center;">My Skills</h2>
+		</div>
+			<div class="content2 img">
+			<ul>
+            <li><i><h3>Problem solving</h3>  As soon as I detect or discover an issue, I take immediate action to find a possible solution.</i> </li>
+            <br>
+            <li><i><h3>Active listening</h3>  Listening to other opinions from others is a method for me to discover new ideas and things, and it also allows me to connect with them.</i> </li>
+            <br>
+            <li><i><h3>Teamwork</h3>  Having cooperation skills is critical for effective collaboration and accomplishing common goals. These talents help me to positively contribute to a group, improving the team's overall performance and productivity.</i></li>
+            <br>
+            <li><i><h3>Adaptability</h3> I have a ability to handle change, solve issues, learn new things, and collaborate effectively with others, making it easier to deal with life's obstacles and possibilities. </i></li>
+        </ul>
+        <br>
+</div>
+	
+
+
+
+
+
+
+</body>
+</head>
+</html>

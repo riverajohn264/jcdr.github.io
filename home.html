@@ -1,0 +1,124 @@
+<!DOCTYPE>
+<html>
+<head>
+	<style>
+	
+	body{margin: 0;
+	}
+
+.vid{
+	position: absolute;
+	z-index: -1;
+	top: 2;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
+	opacity: 80%;
+}
+	nav{
+	width: 200px;
+	height: 100%;
+	position: fixed ;
+	top: 0;
+	left: 0;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+	box-shadow: 0 0 5px 3px rgba(0, 0, 0, 0.5);
+
+	background-color: rgba(30,30,30,10);
+    }
+
+	.brand-container{
+	text-align: center;
+	color: #ADC6B2;
+	font-family: cursive;
+	padding:10px 15px	;
+	font-size: 12px;
+	
+	}
+	.brand-title{
+		margin:0;
+		margin-top: 5px;
+		text-decoration: none;
+		display: block;
+		font-size: 20px;
+		color: #ADC6B2;
+	}
+	.brand-title:hover{
+ 	color: gold;
+	}
+
+	.link{
+	
+	display: block;
+	color: #ADC6B2;
+	padding: 15px 0px;
+	text-decoration: none;
+	margin: 20px;
+	font-family: verdana;
+	transition: 0.2s;
+	font-size: 15px;
+	border-radius: 10px;
+	}
+	.link:hover{
+ 	background: blue;
+ 	padding: 15px;
+ 	color: gold;
+	}
+
+	.profile-container{
+		font-family: verdana;
+		color: #ADC6B2;
+		padding: 15px;
+		margin: 0;
+		position: absolute;
+		bottom: 0;
+		font-size: 10px;
+	}
+	.content1{
+	
+	margin-left: 200px;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-size: 50px;
+	font-family: cursive;
+}
+.content2{
+	
+	margin-left: 200px;
+	padding: 20px;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	font-family: fantasy;
+}
+
+	</style>
+<body bgcolor="#ADC6B2">
+	<nav>	<div class="brand-container">
+				<img src="JCDR.png" width="48px"/>
+				<a class="brand-title"  href="home.html">JCDR</a>
+		</div>
+		<div class="links-container">
+			<a class="link" href="portfolioniJC.html">About me</a>
+			<a class="link" href="myskills.html">My Skills</a>
+			<a class="link" href="myachievements.html">My Achievements</a>
+		</div>
+		<div class="profile-container"><p> Rivera,John Christian D.</p><p>  BSCS 1-4</p>
+		</div>
+	</nav>
+		<video class="vid" autoplay muted loop>
+	<source src="TECH.mp4" type="video/mp4">
+	</video>
+	<div>
+	<h2 class="content1">Welcome to My Website</h2>
+</div>
+	<br>
+	<br>
+	<br>
+	<div><p class="content2">This website offers some information on myself, my skills, and, lastly, my notable achievements in life.</p></div>
+
+</body>
+</head>
+</html>
